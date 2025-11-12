@@ -1,0 +1,646 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #1A3D3D;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #FF7A5C 0%, #FF9580 100%);
+    color: white;
+    padding: 40px 20px 60px;
+    border-radius: 0 0 50px 50px;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.logo-text {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.highlight-dark {
+    color: #1A3D3D;
+}
+
+.highlight-coral {
+    color: #FF7A5C;
+}
+
+.highlight-white {
+    color: white;
+    font-weight: 600;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.hero-tagline {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1A3D3D;
+    margin-bottom: 25px;
+}
+
+.hero-features {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.check-icon {
+    flex-shrink: 0;
+}
+
+/* Why Choose Section */
+.why-choose {
+    padding: 60px 20px;
+    background: #F8F9FA;
+}
+
+.section-title {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.3;
+}
+
+.section-title-center {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    color: #1A3D3D;
+}
+
+.section-title-dark {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    color: white;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.benefit-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.benefit-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.benefit-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1A3D3D;
+    margin-bottom: 12px;
+}
+
+.benefit-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Trustpilot Section */
+.trustpilot-section,
+.trustpilot-bottom {
+    padding: 40px 20px;
+    background: white;
+    text-align: center;
+}
+
+.trustpilot-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.trustpilot-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.trustpilot-logo .star {
+    color: #00B67A;
+    font-size: 32px;
+}
+
+.trustpilot-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1A3D3D;
+}
+
+.trustpilot-stars {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.star {
+    font-size: 28px;
+    color: #ddd;
+}
+
+.star.filled {
+    color: #00B67A;
+}
+
+.rating-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1A3D3D;
+    margin-left: 10px;
+}
+
+.reviews-text {
+    font-size: 16px;
+    color: #666;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #FF7A5C;
+    color: white;
+    padding: 18px 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 122, 92, 0.3);
+}
+
+.cta-button:hover {
+    background: #FF6B4A;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 122, 92, 0.4);
+}
+
+/* Process Section */
+.process-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #E8F4F8 0%, #F0F8FB 100%);
+}
+
+.process-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #1A3D3D;
+    margin-bottom: 50px;
+    line-height: 1.8;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.step-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+}
+
+.step-number {
+    background: #FF7A5C;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.step-icon {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.step-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1A3D3D;
+    margin-bottom: 10px;
+}
+
+.step-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.cta-center {
+    text-align: center;
+}
+
+/* Partners Section */
+.partners-section {
+    padding: 60px 20px;
+    background: white;
+}
+
+.partners-text {
+    text-align: center;
+    font-size: 18px;
+    color: #1A3D3D;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.partner-logo {
+    padding: 20px;
+}
+
+.attijari-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.attijari-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #FFD700 0%, #FF6B35 50%, #FF4500 100%);
+    border-radius: 8px;
+    position: relative;
+}
+
+.attijari-icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 20px;
+    background: #1A3D3D;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+}
+
+.attijari-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.attijari-ar {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1A3D3D;
+}
+
+.attijari-en {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1A3D3D;
+}
+
+/* Services Section */
+.services-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1A3D3D 0%, #2A5555 100%);
+    color: white;
+}
+
+.services-subtitle {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 25px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1A3D3D;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.price {
+    margin-bottom: 15px;
+}
+
+.current-price {
+    font-size: 36px;
+    font-weight: 800;
+    color: #FF7A5C;
+    display: block;
+}
+
+.old-price {
+    font-size: 24px;
+    color: #1A3D3D;
+    text-decoration: line-through;
+    display: block;
+    margin-top: 5px;
+}
+
+.delivery-time {
+    font-size: 18px;
+    color: #0EA5E9;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.service-features {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.service-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #1A3D3D;
+    line-height: 1.5;
+}
+
+.check-icon-small {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.service-button {
+    display: block;
+    width: 100%;
+    background: #FF7A5C;
+    color: white;
+    padding: 18px;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 122, 92, 0.3);
+}
+
+.service-button:hover {
+    background: #FF6B4A;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 122, 92, 0.4);
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #FF7A5C 0%, #FF9580 100%);
+    color: white;
+    text-align: center;
+    border-radius: 50px 50px 0 0;
+}
+
+.contact-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1A3D3D;
+    margin-bottom: 20px;
+}
+
+.contact-subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 1.8;
+    color: #1A3D3D;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.social-icon {
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.contact-cta {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+/* Floating WhatsApp Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.whatsapp-float:hover {
+    background: #20BA5A;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 32px;
+    }
+    
+    .hero-tagline {
+        font-size: 28px;
+    }
+    
+    .section-title,
+    .section-title-center,
+    .section-title-dark {
+        font-size: 28px;
+    }
+    
+    .benefits-grid,
+    .steps-grid,
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .service-card h3 {
+        font-size: 24px;
+    }
+    
+    .current-price {
+        font-size: 30px;
+    }
+    
+    .whatsapp-float span {
+        display: none;
+    }
+    
+    .whatsapp-float {
+        padding: 15px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 30px 15px 40px;
+    }
+    
+    .logo-text {
+        font-size: 24px;
+    }
+    
+    .hero-title {
+        font-size: 26px;
+    }
+    
+    .hero-tagline {
+        font-size: 24px;
+    }
+    
+    .section-title,
+    .section-title-center,
+    .section-title-dark {
+        font-size: 24px;
+    }
+    
+    .benefit-card,
+    .step-card,
+    .service-card {
+        padding: 20px;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.benefit-card,
+.step-card,
+.service-card {
+    animation: fadeInUp 0.6s ease-out;
+}
