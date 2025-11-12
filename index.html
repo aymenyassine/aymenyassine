@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formalitys - Création de Société & Licence d'Exploitation au Maroc</title>
+    <meta name="description" content="Simplifiez vos démarches administratives au Maroc. Création de société et licence d'exploitation de riad en toute simplicité.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Formalitys Logo" class="logo-img">
+            </div>
+            <nav class="social-links">
+                <a href="https://www.instagram.com/formalitys.maroc" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/formalitys" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Simplifiez Vos Démarches Administratives au Maroc</h1>
+            <p class="hero-subtitle">Création de société et licence d'exploitation de riad en toute simplicité</p>
+            <div class="hero-cta">
+                <a href="#services" class="btn-scroll">Découvrir nos services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <p class="section-subtitle">Choisissez le service qui correspond à vos besoins</p>
+
+            <div class="services-grid">
+                <!-- Service 1: Création de Société -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="service-title">Création de Société</h3>
+                    <p class="service-description">
+                        Lancez votre entreprise au Maroc en toute sérénité. Nous nous occupons de toutes les formalités administratives pour créer votre société.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Constitution du dossier complet</li>
+                        <li><i class="fas fa-check"></i> Enregistrement légal</li>
+                        <li><i class="fas fa-check"></i> Obtention du certificat d'immatriculation</li>
+                        <li><i class="fas fa-check"></i> Accompagnement personnalisé</li>
+                    </ul>
+                    <div class="service-cta">
+                        <button onclick="openForm('creation')" class="btn btn-primary">Je le veux</button>
+                    </div>
+                </div>
+
+                <!-- Service 2: Licence d'Exploitation Riad -->
+                <div class="service-card featured">
+                    <div class="badge">Populaire</div>
+                    <div class="service-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3 class="service-title">Licence d'Exploitation Riad</h3>
+                    <p class="service-description">
+                        Obtenez votre licence d'exploitation pour votre riad ou établissement touristique. Procédure simplifiée et rapide.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Préparation du dossier technique</li>
+                        <li><i class="fas fa-check"></i> Démarches auprès des autorités</li>
+                        <li><i class="fas fa-check"></i> Suivi jusqu'à l'obtention</li>
+                        <li><i class="fas fa-check"></i> Conformité garantie</li>
+                    </ul>
+                    <div class="service-cta">
+                        <button onclick="openForm('licence')" class="btn btn-primary">Je le veux</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <h2 class="section-title">Ils Nous Font Confiance</h2>
+            <div class="partners-banner">
+                <div class="partners-scroll">
+                    <img src="assets/images/partner1.png" alt="Partenaire 1" class="partner-logo">
+                    <img src="assets/images/partner2.png" alt="Partenaire 2" class="partner-logo">
+                    <img src="assets/images/partner3.png" alt="Partenaire 3" class="partner-logo">
+                    <img src="assets/images/partner4.png" alt="Partenaire 4" class="partner-logo">
+                    <img src="assets/images/partner5.png" alt="Partenaire 5" class="partner-logo">
+                    <!-- Duplicate for infinite scroll effect -->
+                    <img src="assets/images/partner1.png" alt="Partenaire 1" class="partner-logo">
+                    <img src="assets/images/partner2.png" alt="Partenaire 2" class="partner-logo">
+                    <img src="assets/images/partner3.png" alt="Partenaire 3" class="partner-logo">
+                    <img src="assets/images/partner4.png" alt="Partenaire 4" class="partner-logo">
+                    <img src="assets/images/partner5.png" alt="Partenaire 5" class="partner-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Prêt à Démarrer ?</h2>
+            <p class="cta-subtitle">Contactez-nous dès aujourd'hui et laissez-nous gérer vos formalités</p>
+            <a href="https://wa.me/212620269000" target="_blank" class="btn btn-secondary">
+                <i class="fab fa-whatsapp"></i> Contactez-nous sur WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="Formalitys Logo" class="logo-img">
+                    <p>Simplifiez vos démarches administratives au Maroc</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> info@formalitys.com</p>
+                    <p><i class="fas fa-phone"></i> +212 6 20 26 9000</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/formalitys.maroc" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/formalitys" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Formalitys. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/212620269000" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal for Forms -->
+    <div id="formModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeForm()">&times;</span>
+            <div id="formContainer"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
