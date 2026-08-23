@@ -44,12 +44,12 @@ I'm a final-year engineering student in **Digital Development & Information Syst
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=aymenyassine&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aymenyassine&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats-git-masterrstaib.vercel.app/api?username=aymenyassine&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats-git-masterrstaib.vercel.app/api/top-langs/?username=aymenyassine&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aymenyassine&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=aymenyassine&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
@@ -63,6 +63,7 @@ I'm a final-year engineering student in **Digital Development & Information Syst
 <p align="center">
   <img src="https://raw.githubusercontent.com/aymenyassine/aymenyassine/output/github-contribution-grid-snake.svg" />
 </p>
+
 ---
 
 ### 🌐 Connect with me
