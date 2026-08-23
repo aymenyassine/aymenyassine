@@ -63,9 +63,6 @@ I'm a final-year engineering student in **Digital Development & Information Syst
 <p align="center">
   <img src="https://raw.githubusercontent.com/aymenyassine/aymenyassine/output/github-contribution-grid-snake.svg" />
 </p>
-
-> ⚠️ Le snake animé se génère automatiquement via une GitHub Action — voir les instructions d'installation ci-dessous.
-
 ---
 
 ### 🌐 Connect with me
