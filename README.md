@@ -41,23 +41,6 @@ I'm a final-year engineering student in **Digital Development & Information Syst
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats-git-masterrstaib.vercel.app/api?username=aymenyassine&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats-git-masterrstaib.vercel.app/api/top-langs/?username=aymenyassine&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=aymenyassine&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aymenyassine&theme=tokyonight&no-frame=true&row=1&column=6" />
-</p>
-
----
-
 ### 🐍 Contribution Snake
 
 <p align="center">
